@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>UNIX Vocabulary</title>
+<style>
+body {
+    background-color: #ffffff;
+    margin: 0 10%;
+    font-family: "Verdana", sans-serif;
+}
+h1 {
+    text-align: center;
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #57b1dc;
+}
+dt {
+    color: #FF007F;
+    font-size: 1em;
+}
+</style>
+</head>
+
+<body>
+    <h1>UNIX Vocabulary</h1>
+
+    <dl>
+            <dt>pwd</dt>
+            <dd>Prints the full system path of the current working directory.</dd><br>
+            <dt>man <i>commandName</i></dt>
+            <dd>Can format and display the user manual pages.</dd><br>
+            <dt>cp <i>file1 file2</i></dt>
+            <dd>Creates an exact copy of file1 under the new name: file2.</dd><br>
+            <dt>mv <i>file1 file2</i></dt>
+            <dd>Gives file1 the new name, file2.</dd><br>
+            <dt>ls</dt>
+            <dd>Used to list the computer files and directories under the current working directory.</dd><br>
+            <dt>ls -al or ls -la</dt>
+            <dd>Provides a long list of all files, including hidden files, and details within each file.</dd><br>
+            <dt>ls -l</dt>
+            <dd>Generates a long listing of a directory, file, and file permissions.</dd><br>
+            <dt>cd folder1</dt>
+            <dd>Changes the current directory to folder1.</dd><br>
+            <dt>cd ..</dt>
+            <dd>Used to move up a directory, or change to the parent of the current directory.</dd><br>
+            <dt>cd /</dt>
+            <dd>Changes the current directory to the root directory.</dd><br>
+            <dt>cd</dt>
+            <dd>Used to change directory. When used on its own, the cd command returns the user to the previous current directory.</dd><br>
+            <dt>chmod 755 <i>folder1</i></dt>
+            <dd>Set folder permissions to 755. Means read and execute access for everyone and write access for the owner of the folder.</dd><br>
+            <dt>chmod 644 <i>file1</i></dt>
+            <dd>Set file permissions to 644. Means read and write access for the owner of the file and read access for everyone else.</dd><br>
+            <dt>chmod 700 <i>folder1</i></dt>
+            <dd>Set folder permissions to 700. Means owner has all access to the folder and everyone else has no access.</dd><br>
+            <dt>mkdir <i>folder1</i></dt>
+            <dd>Creates a directory called folder1.</dd><br>
+            <dt>rmdir <i>folder1</i></dt>
+            <dd>Removes the directory folder1.</dd><br>
+            <dt>rm <i>file1</i></dt>
+            <dd>Will remove file1.</dd><br>
+            <dt>rm <i>proj?.html</i></dt>
+            <dd>Deletes all files in the form proj?.html where the ? indicates any single character.</dd><br>
+            <dt>rm*</dt>
+            <dd>Selects all files and deletes them.</dd><br>
+            <dt>cal</dt>
+            <dd>Displays a calendar in the terminal.</dd><br>
+            <dt>cal 5 2016</dt>
+            <dd>Displays a full calendar of May 2016 in the terminal.</dd><br>
+            <dt>cat <i>file1</i></dt>
+            <dd>Will display the contents of file1.</dd><br>
+            <dt>cat <i>file1 file2 >> file3</i></dt>
+            <dd>Will copy file1 and file2 into file3.</dd><br>
+            <dt>echo "goop" >> file3</dt>
+            <dd>Displays the string "goop" that is passed in as the argument. Redirects "goop" to file3.</dd><br>
+            <dt>nano file1.txt</dt>
+            <dd>Opens a text file in the text editor Nano, titled file1.</dd><br>
+            <dt>telnet <i>towel.blinkenlights.nl</i></dt>
+            <dd>Can be used to watch the original Star Wars Episode IV – A New Hope right from the terminal.</dd><br>
+            <dt>w or who</dt>
+            <dd>Shows who is logged on, and what they are doing.</dd><br>
+            <dt>finger <i>userName</i></dt>
+            <dd>Can be used to find out information about a computer user. May reveal login name, full name, and other details about the specific user.</dd><br>
+            <dt>write <i>userName</i></dt>
+            <dd>Sends a message to another user. Copies lines from one's terminal to another user's terminal.</dd><br>
+            <dt>wc -w < <i>file</i></dt>
+            <dd>Prints the number of words in the file.</dd><br>
+            <dt>wc -l < <i>file</i></dt>
+            <dd>Prints the number of lines in the file.</dd><br>
+            <dt>wc -c < <i>file</i></dt>
+            <dd>Prints the number of bytes in the file.</dd><br>
+    </dl>
+</body>
+
+</html>
